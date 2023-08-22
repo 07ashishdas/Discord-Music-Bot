@@ -1,5 +1,5 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || "MTE0MDE3MjQ5OTU5ODk3MDk5MA.G3cDGM.P8Qe6Qhw6VbhtJYwCBp-uIsNSOz-KkDQ829su",
+  TOKEN: process.env.TOKEN || "Token here",
   PREFIX: process.env.PREFIX || "/",
   embed: {
     color: process.env.color || "#220f80",
@@ -98,6 +98,6 @@ module.exports = {
   ],
   slash: {
     global: true,
-    guildID: process.env.GUILD_ID || "1140189409610838039", // for slash command
+    guildID: process.env.GUILD_ID || "Server ID Here", // for slash command
   },
 };
